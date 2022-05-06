@@ -587,7 +587,7 @@ h4 {
   #cart table tbody td{
     font-size: 13px;
   }
-  .subtotal{
+  .card{
     width: 50%;
     margin-left: 50%;
     margin-bottom: 30px;
@@ -595,19 +595,17 @@ h4 {
     border: 1px solid #ccc;
     padding: 30px;
   }
-  .subtotal h3{
-    padding-bottom: 20px;
-  }
-  .subtotal table{
-    border-collapse: collapse;
+  .card .dlist-align{
     width: 100%;
     margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
   }
-  .subtotal table td{
-    width: 50%;
-    border: 1px solid #ccc;
-    padding: 10px;
+  .card .dlist-align dd{
+    display: flex;
+    
   }
+
   /* ==================================product detail================================ */
   .row{
     display: flex;
