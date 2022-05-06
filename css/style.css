@@ -600,3 +600,56 @@ h4 {
     border: 1px solid #ccc;
     padding: 10px;
   }
+  /* ==================================product detail================================ */
+  .row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .col-2{
+    width: 50%;
+  }
+  .col-2 select, .col-2 input{
+    display: block;
+    margin: 20px 0;
+  }
+  .col-2 img{
+    width: 70%;
+  }
+  .col-2 input{
+    width: 70px;
+    padding: 10px 5px 10px 15px;
+  }
+  .col-2 p{
+    margin-bottom: 30px;
+  }
+  .col-2 .primary-btn{
+    text-decoration: none;
+    border: 1px solid #f4c015;
+    background-color: #f4c015;
+    padding: 15px 20px;
+    color: #fff;
+    transition: 0.3s;
+  }
+  .col-2 .primary-btn:hover{
+    background-color: transparent;
+    border: 1px solid #f4c015;
+    color: #333;
+  }
+  .second-btn{
+    background-color: transparent;
+    border: 1px solid #f4c015;
+    color: #333;
+    padding: 15px 20px;
+    transition: 0.3s;
+    text-decoration: none;
+  }
+  .second-btn:hover{
+    background-color: #f4c015;
+    padding: 15px 20px;
+    color: #fff;
+  }
+  .title h4{
+    text-align: center;
+    margin: 50px;
+  }
