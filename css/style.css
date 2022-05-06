@@ -536,13 +536,21 @@ h4 {
   }
   .section_container .card .content .price_rating{
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
   }
   .section_container .card .content .price_rating h2{
     font-size: 20px;
     color: #ff3d00;
     font-weight: 500;
+    margin-left: 25px;
+  }
+  .section_container .card .content .price_rating h3{
+    text-decoration: line-through;
+    font-size: 20px;
+    color: #656565;
+    font-weight: 500;
+    
   }
   .section_container .card .content .price_rating .fa-solid{
     color: #ffd513;
@@ -653,3 +661,13 @@ h4 {
     text-align: center;
     margin: 50px;
   }
+/* ======================help========================== */
+.accordion-container{
+  border: 1px solid #ccc;
+}
+.accordion-header{
+  font-size: 24px;
+  font-weight: bold;
+  border-bottom: 1px solid #ccc;
+  padding: 10px 20px;
+}
