@@ -570,26 +570,6 @@ h4 {
   #cart table img{
     width: 80px;
   }
-  .quantity{
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 0;
-  }
-  .minus,
-  .plus{
-    width: 30px;
-    height: 30px;
-    background: #fff;
-    border: 1px solid #ddd;
-    border-radius: 15px;
-    cursor: pointer;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    position: relative;
-  }
   #cart table thead{
     border: 1px solid #ccc;
     border-left: none;
@@ -604,9 +584,41 @@ h4 {
   #cart table tbody tr td{
     padding-top: 20px;
   }
-  #cart table tbody td{
-    font-size: 13px;
+  .quantity{
+    display: flex;
+    align-items: center;
   }
+  .quantity .input-group-prepend button i,
+  .quantity .input-group-append button i{
+    padding: 5px;
+    cursor: pointer;
+  }
+  .quantity input{
+    padding: 5px;
+    margin: 0 5px;
+    text-align: center;
+    
+  }
+  .price-wrap .price{
+    display: block;
+  }
+  .btn-danger{
+    padding:10px 20px;
+    background-color: red;
+    border-radius: 15px;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+  .btn-danger:hover{
+    border: 1px solid red;
+  }
+  .btn-danger span{
+    color: #fff;
+  }
+  .form-control{
+    max-width: 30px;
+  }
+ 
   .cart{
     width: 50%;
     margin-left: 50%;
