@@ -49,6 +49,9 @@ header{
     display: flex;
     align-items: center;
 }
+.header-text a{
+  text-decoration: none;
+}
 .header-text span{
     color: #fff;
 }
@@ -62,8 +65,14 @@ header{
 }
 .shopping-icon{
     color: #fff;
-    padding-right: 30px;
     transition: 0.3s;
+}
+.shopping-icon-number{
+  padding: 2px 7px;
+  border-radius: 100%;
+  margin-left: 5px;
+  font-size: 20px;
+  background-color: red;
 }
 .shopping-icon:hover{
     color: #333;
