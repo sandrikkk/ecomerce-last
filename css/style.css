@@ -570,6 +570,26 @@ h4 {
   #cart table img{
     width: 80px;
   }
+  .quantity{
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0;
+  }
+  .minus,
+  .plus{
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
   #cart table thead{
     border: 1px solid #ccc;
     border-left: none;
@@ -603,7 +623,6 @@ h4 {
   }
   .cart .dlist-align dd{
     display: flex;
-    
   }
 
   /* ==================================product detail================================ */
