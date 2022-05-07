@@ -63,19 +63,16 @@ header{
 .header-text-item:hover{
     color: #333;
 }
-.shopping-icon{
-    color: #fff;
-    transition: 0.3s;
-}
-.shopping-icon-number{
-  padding: 2px 7px;
-  border-radius: 100%;
-  margin-left: 5px;
-  font-size: 20px;
-  background-color: red;
-}
-.shopping-icon:hover{
-    color: #333;
+.item-count {
+  top: 0px;
+  right: -10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: #e74c3c;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
 }
 .logo a{
     font-size: 25px;
@@ -214,6 +211,31 @@ nav a:hover{
   .footer-distributed .footer-center i{
     margin-left: 0;
   }
+}
+/* ==========================home page============================== */
+.home-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.header-title{
+  font-size: 60px;
+  text-align: center;
+  margin-bottom: 100px;
+}
+.home-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.price {
+  color: grey;
+  font-size: 22px;
+}
+.card button:hover {
+  opacity: 0.7;
 }
 /* =============auth=============== */
 .auth-form-container{
