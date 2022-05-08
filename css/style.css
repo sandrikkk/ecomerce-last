@@ -533,7 +533,7 @@ h4 {
     padding: 20px;
   }
   .section_container .card{
-    width: 100%;
+    width: 300px;
     background: #fff;
   }
   .section_container .card .imgBx{
@@ -811,8 +811,88 @@ h4 {
   background-color: white;
   max-height: 0;
   overflow: hidden;
-  transition: max-height 0.2s ease-out;
+  transition:t 0.2s ease-out;
 }
+/* =======================contact==================================== */
+.wrapper {
+  width: 90%;
+  padding: 2rem;
+  background: #fff;
+  margin: auto;
+  
+}
+h2 {
+  background: #f4c015;
+  letter-spacing: 0.1rem;
+  padding: 1rem;
+  cursor: default;
+}
+form,
+input,
+textarea,
+button {
+  font-family: inherit;
+  font-size: initial;
+}
+.form-group label {
+  display: block;
+  margin: 2rem 0 0.5rem 0;
+}
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+  width: 100%;
+  padding: 1rem 0.8rem;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  outline: 0;
+  transition: border 0.15s;
+}
+.form-group input[type="text"],
+.form-group input[type="email"] {
+  height: 4.6rem;
+}
+.form-group textarea {
+  resize: vertical;
+}
+.submit {
+  font-weight: bold;
+  margin-top: 1rem;
+  padding: 1rem 1.5rem;
+  border: none;
+  background: #f4c015;
+  cursor: pointer;
+  transition: 0.15s;
+}
+.submit:hover {
+  background: #f4c015;
+}
+.form-group input[type="text"]:focus,
+.form-group input[type="email"]:focus,
+.form-group textarea:focus {
+  border: 1px solid #222;
+}
+
+@media screen and (min-width: 576px) {
+  .wrapper {
+    width: 70%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .wrapper {
+    width: 55%;
+  }
+}
+@media screen and (min-width: 992px) {
+  .wrapper {
+    width: 45%;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .wrapper {
+    width: 35%;
+  }
+}
+
 
 
 
