@@ -40,11 +40,6 @@ header{
     justify-content: space-between;
     align-items: center;
 }
-.icons{
-    color: #fff;
-    width: 30px;
-    height: 30px;
-}
 .header-text{
     display: flex;
     align-items: center;
@@ -79,6 +74,12 @@ header{
     text-decoration: none;
     color: #fff;
 }
+.logo2 a{
+  font-size: 25px;
+  text-decoration: none;
+  color: #fff;
+
+}
 nav a{
     color: #fff;
     text-decoration: none;
@@ -86,8 +87,9 @@ nav a{
 }
 nav a:hover{
     color: #333;
+    transition: 0.5s;
 }
-.search-container{
+.search-container .search-container2{
   margin-right: 20px;
 }
 .searchbar-input {
@@ -97,7 +99,7 @@ nav a:hover{
   border: none;
 }
 
-.search-container button {
+.search-container button, .search-container2 button {
   float: right;
   padding: 6px 10px;
   margin-top: 8px;
@@ -108,7 +110,7 @@ nav a:hover{
   cursor: pointer;
 }
 
-.search-container button:hover {
+.search-container button:hover, .search-container button:hover {
   background: #ccc;
 }
 .cart-container a{

@@ -6,32 +6,70 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="css/responsive.css">
     <title>Document</title>
 </head>
 <body>
     <header class="header-container">
+        <div class="burgermenu">
+            <div id="myNav" class="overlay">
+                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                <div class="overlay-content">
+                    <a href="" class="sigane">                    
+                        <div class="search-container2">
+                            <form action="search-bar">
+                                <input class="searchbar-input" type="text" placeholder="Search.." name="search">
+                                <button type="submit"><i class="fa fa-search"></i></button>
+                            </form>
+                        </div>
+                    </a>
+                    <a href="./index.html">Home</a>
+                    <a href="./shop.html">Shop</a>
+                    <a href="#">Contact</a>
+                    <a href="#">Help</a>
+                </div>
+            </div>
+              <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+              <div class="logo2">
+                <a href="./index.html">NIKASANDRIKA</i></a>
+            </div>
+            <div class="login">
+                <a class="header-text-item" href="./auth.html">Login</a>
+                <span>|</span>
+                <a class="header-text-item" href="./registration.html">Register</a>
+               </div>
+        </div>
         <div class="container header-container">
             <div class="logo">
-                <a href="#">NIKASANDRIKA</i></a>
+                <a href="./index.html">NIKASANDRIKA</i></a>
             </div>
             <nav>
                 <div>
                     <a href="./index.html">Home</a>
                     <a href="./shop.html">Shop</a>
-                    <a href="./help.html">Help</a>
                     <a href="#">Contact</a>
+                    <a href="#">Help</a>
                 </div>
             </nav>
             <div class="header-text">
-                <a href="./cart.html"><i class="fa-solid fa-cart-shopping shopping-icon"></i></a>
+                <div class="search-container">
+                    <form action="search-bar">
+                      <input class="searchbar-input" type="text" placeholder="Search.." name="search">
+                      <button type="submit"><i class="fa fa-search"></i></button>
+                    </form>
+                </div>
+                <span class="cart-container">
+                    <div class="fa" style="font-size:24px"><a href=""><i class="fa-solid fa-cart-shopping"></a></i></div>
+                    <span class='badge badge-warning' id='lblCartCount'> 5 </span>
+                </span>
                 <a class="header-text-item" href="./auth.html">Login</a>
                 <span>|</span>
                 <a class="header-text-item" href="./registration.html">Register</a>
             </div>
         </div>
     </header>
-    <!-- ===================slider=============== -->
-    <div class="container">
+    <!-- <div class="container">
         <div class="slideshow-container">
 
             <div class="mySlides fade">
@@ -61,7 +99,6 @@
               <span class="dot" onclick="currentSlide(3)"></span> 
             </div>
     </div>
-        <!-- =================slider2------------------- -->
         <h4 class="header-title">Top Products</h4>
         <div class="container home-container">
             <div class="home-card">
@@ -92,7 +129,7 @@
                 <p>Some text about the jeans. Super slim and comfy lorem ipsum lorem jeansum. Lorem jeamsun denim lorem jeansum.</p>
                 <p><button class="btn-primary">Add to Cart</button></p>
             </div>
-        </div>
+        </div> -->
 
 
     <script src="./javascript/main.js"></script>
